@@ -1,0 +1,1 @@
+{"canonical_identity":{"block_height":300,"created_at":"2026-04-15T00:00:00Z","pocketnet_core_version":"0.21.16-test"},"entries":[{"entry_kind":"whole_file","hash":"315e8622159935069282b5a03fd8596a833616b5e042c77d95da0ba26262ea4b","path":"pocketdb/data/file.bin"}],"format_version":1,"trust_anchors":[]}

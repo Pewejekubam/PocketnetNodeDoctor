@@ -1,0 +1,10 @@
+# Trust-roots for the manifest fixtures (T022).
+# Computed at runtime by tests via canonform.Marshal(parsed_manifest) -> SHA-256.
+# This file documents the expectation; the live values are recomputed in tests
+# from the fixtures themselves so a fixture edit auto-updates the trust-root
+# under test (we test the verify mechanism, not a frozen golden hash).
+#
+# valid_v1.json            -> hash(canonform(parse(valid_v1.json)))
+# tampered.json            -> hash(canonform(parse(tampered.json)))           [differs from valid_v1 by change_counter; trust-root differs]
+# format_version_2.json    -> hash(canonform(parse(format_version_2.json)))   [refused at format_version check, trust-root not checked]
+# trust_anchors_nonempty.json -> hash(canonform(parse(trust_anchors_nonempty.json)))

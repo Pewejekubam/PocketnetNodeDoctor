@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "canonical_identity": {
+    "block_height": 3806626,
+    "pocketnet_core_version": "0.21.16-test",
+    "created_at": "2026-04-15T00:00:00Z"
+  },
+  "entries": [
+    {
+      "entry_kind": "sqlite_pages",
+      "path": "pocketdb/main.sqlite3",
+      "change_counter": 99999,
+      "pages": [
+        {"offset": 0, "hash": "0000000000000000000000000000000000000000000000000000000000000001"},
+        {"offset": 4096, "hash": "0000000000000000000000000000000000000000000000000000000000000002"}
+      ]
+    },
+    {
+      "entry_kind": "whole_file",
+      "path": "blocks/000000.dat",
+      "hash": "0000000000000000000000000000000000000000000000000000000000000003"
+    }
+  ],
+  "trust_anchors": []
+}
